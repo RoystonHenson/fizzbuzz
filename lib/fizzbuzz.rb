@@ -1,10 +1,10 @@
 def fizzbuzz(number)
   if number % 3 == 0 && number % 5 == 0
-    num = "fizz"
+    num = "fizzbuzz"
   elsif number % 5 == 0
     num = "buzz"
   elsif number % 3 == 0
-    num = "fizzbuzz"
+    num = "fizz"
   else
     num = number
   end
